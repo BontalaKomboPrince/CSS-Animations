@@ -1,0 +1,22 @@
+div{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  position: relative;
+  -webkit-animation: loop 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
+   animation: loop 5s linear 2s infinite alternate;
+}
+@-webkit-keyframes loop {
+  0% {background-color:white; left: 0px; top: 0px;}
+  25% {background-color:red; left: 400px; top: 0px;}
+  50% {background-color:black; left: 400px; top: 400px;}
+  75% {background-color:green; left: 0px; top: 400px;}
+  100% {background-color:yellow; left: 0px; top: 0px;}
+}
+@keyframes loop {
+  0% {background-color: white; left: 0px; top: 0px;}
+  25% {background-color: red; left: 400px; top: 0px;}
+  50% {background-color: black; left: 400px; top: 400px;}
+  75% {background-color: green; left: 0px; top: 400px;}
+  100% {background-color: yellow; left: 0px; top: 0px;}
+}
