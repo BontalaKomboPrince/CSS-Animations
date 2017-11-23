@@ -5,6 +5,12 @@ div{
   position: relative;
   -webkit-animation: loop 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
    animation: loop 5s linear 2s infinite alternate;
+   img {
+     width: 150px;
+     height: 150px;
+     padding: 30px;
+
+   }
 }
 @-webkit-keyframes loop {
   0% {background-color:white; left: 0px; top: 0px;}
